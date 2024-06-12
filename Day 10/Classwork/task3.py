@@ -2,7 +2,7 @@
 
 sum=0
 num=5
-for i in range(12):
+for i in range(5, 16):
     sum=sum+num
     num=num+1
 print(sum)
