@@ -3,5 +3,5 @@
 
 numlist = [1, 2, 3, 4, 5]
 numlist.pop()
-numlist.remove(1)
+numlist.pop(0)
 print(numlist)
