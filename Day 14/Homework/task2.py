@@ -29,6 +29,10 @@ print(chrlist)
 
 #4
 
+tuplist = ["car", "tree", "house", "book"]
+a=tuplist.pop()
+tuplist.append(a)
+print(tuplist)
 
 
 #5
