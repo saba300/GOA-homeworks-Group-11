@@ -1,0 +1,20 @@
+.parent{
+    background-color: rgb(112, 157, 230);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.left{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+}
+.right{
+    background-color: blue;
+    width: 350px;
+    height: 500px;
+}
+.title, .pos, .com, .str, .inf, .cou, .em{
+    width: 75%;
+}

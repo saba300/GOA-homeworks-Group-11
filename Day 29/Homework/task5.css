@@ -1,0 +1,38 @@
+.a{
+    list-style-type: circle;
+}
+.b{
+    list-style-type: square;
+}
+.c{
+    list-style-type: upper-roman;
+}
+.d{
+    list-style-type: lower-alpha;
+}
+tr, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(1){
+    background-color: red;
+    color: white;
+}
+tr:nth-child(2){
+    background-color: white;
+    color: black;
+}
+tr:nth-child(even){
+    background-color: white;
+    color: black;
+}
+tr:nth-child(3){
+    background-color: grey;
+    color: white;
+}
+tr:nth-child(5){
+    background-color: grey;
+    color: white;
+}
