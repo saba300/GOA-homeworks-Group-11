@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    padding: 5px;
+    border: black solid 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 900px;
+    height: 900px;
+}
+
+.child{
+    width: 300px;
+    height: 300px;
+}
