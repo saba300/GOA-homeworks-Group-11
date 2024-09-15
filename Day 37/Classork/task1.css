@@ -1,0 +1,15 @@
+@media screen and (max-width: 300px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 300px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}

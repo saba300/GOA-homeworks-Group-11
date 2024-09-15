@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+  
+.parent {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1200px;
+  
+    color: white;
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 100px 50px;
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 100px 50px;
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 100px 50px;
+}
+img {
+    width: 100px;
+}
+.headings {
+    font-size: 40px;
+    margin-top: 50px;
+}
+p {
+    margin-top: 80px;
+    font-size: 20px;
+}
+button {
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px;
+  
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 22px;
+}
+.sedan-button {
+    color: hsl(31, 77%, 52%);
+}
+.suv-button {
+    color: hsl(184, 100%, 22%);
+}
+.luxury-button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 500px) {
+    .parent{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
