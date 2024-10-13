@@ -1,0 +1,29 @@
+<!--1) გააკეთეთ 5 ელემენტი htmlში.
+2) პირველ ელემენტს შეუცვაკეთ ტექსტი
+3) მეორე ელემენტს შეუცვალეთ ფერი
+3) მესამე ელემენტს შეუცვალეთ ფერი და უკანა-ფერიც 
+4) მეოთხე ელემენტს შეუცვალეთ ტექსტი, ტექსტის ზომა და პოზიცია
+5) მეხუთე ელემენტში შექმენით ორი ელემენტი, ორივე სხვადასხვა ფერი.-->
+
+
+<html>
+    <head></head>
+    <body>
+        <p id="p1">1</p>
+        <p id="p2">2</p>
+        <p id="p3">3</p>
+        <p id="p4">4</p>
+        <p id="p5">5</p>
+        <script>
+            document.getElementById("p1").textContent="Hello";
+            document.getElementById("p2").style.color= "red";
+            var a=document.getElementById("p3")
+            a.style.color="red"
+            a.style.backgroundColor="green"
+            var b=document.getElementById("p4");
+            b.textContent="text"
+            b.style.textAlign="center"
+            b.style.fontSize= "20px"
+        </script>
+    </body>
+</html>
