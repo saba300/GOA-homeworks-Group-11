@@ -1,0 +1,94 @@
+#icon {
+    width: 100px;
+    cursor: pointer;
+  
+    border-radius: 50%;
+    padding: 10px;
+  }
+  :root {
+    --primary-color: #e8ebe8;
+    --text-color: rgb(26, 26, 26);
+    --secondary-color: teal;
+    transition: background-color 0.6s, color 0.6s;
+  }
+  .dark-theme {
+    --primary-color: #008080;
+    --secondary-color: #e8ebe8;
+    --text-color: white;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: x-large;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .mainImg {
+    border-radius: 50%;
+    width: 200px;
+  }
+  .group {
+    width: 500px;
+    height: 500px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+  }
+  .par1 {
+    width: 500px;
+  }
+  
+  p {
+    font-size: larger;
+  }
+  .heading {
+    font-size: xx-large;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: larger;
+    justify-content: center;
+  }
+  
+  .technologies {
+    display: flex;
+    gap: 20px;
+  }
