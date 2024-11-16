@@ -1,0 +1,31 @@
+<!--შევქმნათ ვებსაიტი სადაც იქნება, სამი ინფუთი, სამი ღილაკი და 
+ერთი შესაბამისი ელემენტი სადაც ტექსტი ჩაიწერება. თქვენი მიზანია რომ 
+პირველმა ღილაკმა პირველ ინფუთში შეყვანილი ტექსტი დაამატოს ვებ გვერდზე, 
+მეორე ღილაკმა მეორე ინფუთიდან 
+გამომდინარე ფერი შეუცვალოს ელემტში მყოფ ტექსტს, ხოლო მესამემ ტექსტის ზომას. -->
+
+<html>
+    <head>
+        <style>
+            #textElement {
+                font-size: 16px;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Text Modifier</h1>
+        
+        <input type="text" id="inputText">
+        <input type="color" id="inputColor">
+        <input type="number" id="inputSize">
+
+        <button id="text">Add text</button>
+        <button id="color">Change color</button>
+        <button id="size">Change size</button>
+
+        <div id="textElement"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>My web</title>
+    </head>
+    <body>
+        <div id="username"></div>
+        <div id="output">
+            <h2 id="h2">Enter the text</h2>
+        </div>
+        
+        <input type="text" id="Text">
+        <button id="addText">დამატება</button>
+
+        <script>
+            const username = prompt();
+            const usernameElement = document.getElementById('username');
+
+            const button = document.getElementById('addText');
+            const input = document.getElementById('Text');
+            const outputText = document.getElementById('h2');
+
+            button.addEventListener('click', function() {
+                const inputValue = input.value.trim();
+                if (inputValue) {
+                    outputText.textContent += ` ${inputValue}`;
+                }
+                input.value = ''; 
+            });
+        </script>
+    </body>
+</html>
