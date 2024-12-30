@@ -1,0 +1,46 @@
+<html>
+    <head>
+
+        <title>Signup Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Create an Account</h2>
+            <form id="signupForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+
+                <label for="terms">I agree to the terms</label>
+                <input type="checkbox" id="terms" required>
+
+                <button type="submit" id="submitBtn">Sign Up</button>
+            </form>
+            <p id="validationMessage"></p>
+        </div>
+
+        <div id="confirmModal" class="modal">
+            <div class="modal-content">
+                <h3>Do you want to enable dark mode?</h3>
+                <button id="yesBtn">Yes</button>
+                <button id="noBtn">No</button>
+            </div>
+        </div>
+
+        <div class="programmersPage" style="display: none;">
+            <h2>Programmers Information</h2>
+            <div class="radio-group">
+                <label><input type="radio" name="programmer" value="programmer1"> Programmer 1</label>
+                <label><input type="radio" name="programmer" value="programmer2"> Programmer 2</label>
+                <label><input type="radio" name="programmer" value="programmer3"> Programmer 3</label>
+            </div>
+            <div id="programmerInfo" class="programmer-info"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

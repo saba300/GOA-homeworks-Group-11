@@ -1,0 +1,19 @@
+<!--შექმენით p ელემენტი hmtlში, 
+შემდეგ jsის გამოყენებით შეცვალეთ მისი მნიშვნელობა და მისი ფერი-->
+
+
+<html>
+    <head>
+        <title>my web</title>
+    </head>
+    <body>
+        <p id="p">Hello world!</p>
+        <script>
+            function change(){
+                var ele = document.getElementById('p')
+                ele.textContent = 'Hello'
+                ele.style.color = 'red'
+            }
+        </script>
+    </body>
+</html>

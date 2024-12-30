@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Which button</title>
+    </head>
+    <body>
+        <button class="button">Button 1</button>
+        <button class="button">Button 2</button>
+        <button class="button">Button 3</button>
+
+        <script>
+            let buttons = document.getElementsByClassName('button');
+            
+            for (let i = 0; i < buttons.length; i++) {
+                buttons[i].addEventListener('click', function() {
+                    console.log('button: ' + (i + 1));
+                });
+            }
+        </script>
+    </body>
+</html>

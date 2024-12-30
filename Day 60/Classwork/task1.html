@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, Bye</title>
+    </head>
+    <body>
+        <p class="text">P1</p>
+        <p class="text">P2</p>
+        <p class="text">P3</p>
+
+        <button id="Button">Change Text</button>
+
+        <script>
+            let button = document.getElementById('Button');
+            let paragraphs = document.getElementsByClassName('text');
+            function check() {
+                for (let i = 0; i < paragraphs.length; i++) {
+                    if (paragraphs[i].textContent === "Hello") {
+                        paragraphs[i].textContent = "Goodbye";
+                    } else {
+                        paragraphs[i].textContent = "Hello";
+                    }
+                }
+            }
+            button.addEventListener('click', check);
+        </script>
+    </body>
+</html>
