@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    transition: transform 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.box:hover {
+    transform: 
+        translate(50px, 50px)
+        rotate(45deg)
+        skew(20deg, 10deg);
+}
