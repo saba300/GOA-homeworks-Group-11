@@ -1,0 +1,22 @@
+<!--5) შექმენით პარაგრაფი, რომლის საწყისი ტექსტი იქნება 0. 
+მის ქვემოთ შექმენით ერთი ღილაკი, რომლის ყოველ დაკლიკებაზე 
+counter ცვლადს ერთი მოემატება და ეს რიცხვი გახდება პარაგრაფის textcontent-->
+
+<html>
+    <head>
+        <title>ყ წებ</title>
+    </head>
+    <body>
+        <p id="counter">0</p>
+        <button onclick="increaseცounter()">click here</button>
+
+        <script>
+            let counter = 0;
+
+            function increaseCounter() {
+                counter++;
+                document.getElementById("counter").textContent = counter;
+            }
+        </script>
+    </body>
+</html>
