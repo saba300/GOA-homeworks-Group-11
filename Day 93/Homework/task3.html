@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vertical Flex Layout with Rotation</title>
+		<style>
+			.container {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+				transform: rotate(180deg);
+			}
+
+			.div {
+				margin: 10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+				font-size: 14px;
+			}
+
+			.div-1 {
+				width: 100px;
+				height: 50px;
+				background-color: red;
+			}
+
+			.div-2 {
+				width: 150px;
+				height: 75px;
+				background-color: green;
+			}
+
+			.div-3 {
+				width: 200px;
+			 height: 100px;
+				background-color: blue;
+			}
+
+			.div-4 {
+				width: 250px;
+				height: 125px;
+				background-color: orange;
+			}
+
+			.div-5 {
+				width: 300px;
+				height: 150px;
+				background-color: purple;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="div div-1">Div 1</div>
+			<div class="div div-2">Div 2</div>
+			<div class="div div-3">Div 3</div>
+			<div class="div div-4">Div 4</div>
+			<div class="div div-5">Div 5</div>
+		</div>
+	</body>
+</html>

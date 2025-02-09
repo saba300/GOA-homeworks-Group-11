@@ -1,0 +1,2 @@
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing თავიდან ბოლომდე წაიკითხეთ ეს რესურსი (გვერდი)
+წავიკითხე

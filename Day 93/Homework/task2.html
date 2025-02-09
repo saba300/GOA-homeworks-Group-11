@@ -1,0 +1,89 @@
+<!--task2-4 in one code-->
+<html>
+	<head>
+		<title>Flexbox Layout Example</title>
+		<style>
+			.parent-div {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 200px;
+				background-color: lightgray;
+				margin-bottom: 20px;
+			}
+
+			.child-div {
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+				font-size: 14px;
+			}
+
+			.child-div-1 {
+				background-color: red;
+			}
+
+			.child-div-2 {
+				background-color: green;
+			}
+
+			/* Second div - vertical alignment */
+			.parent-div-2 {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 200px;
+				background-color: lightblue;
+				margin-bottom: 20px;
+			}
+
+			/* Third div - vertical alignment and flipped */
+			.parent-div-3 {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 200px;
+				background-color: lightyellow;
+				transform: rotate(180deg);
+				margin-bottom: 20px;
+			}
+
+			/* Fourth div - horizontal alignment and flipped */
+			.parent-div-4 {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 200px;
+				background-color: lightcoral;
+				transform: rotate(180deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="parent-div">
+			<div class="child-div child-div-1">Text 1</div>
+			<div class="child-div child-div-2">Text 2</div>
+		</div>
+
+		<div class="parent-div-2">
+			<div class="child-div child-div-1">Text 1</div>
+			<div class="child-div child-div-2">Text 2</div>
+		</div>
+
+		<div class="parent-div-3">
+			<div class="child-div child-div-1">Text 1</div>
+			<div class="child-div child-div-2">Text 2</div>
+		</div>
+
+		<div class="parent-div-4">
+			<div class="child-div child-div-1">Text 1</div>
+			<div class="child-div child-div-2">Text 2</div>
+		</div>
+	</body>
+</html>
