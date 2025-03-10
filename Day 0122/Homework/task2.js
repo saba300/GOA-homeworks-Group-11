@@ -1,0 +1,1 @@
+// https://react.dev/learn/writing-markup-with-jsx გადახედეთ რესურს და ისწავლეთ jsx
