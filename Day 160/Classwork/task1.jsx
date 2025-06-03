@@ -1,7 +1,6 @@
 import React from 'react';
 
 const App = () => {
-  // Style object ღილაკისთვის
   const buttonStyle = {
     backgroundColor: '#007bff',
     color: 'white',
@@ -15,9 +14,9 @@ const App = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h2>ორი ღილაკი – სხვადასხვა სტილით</h2>
+      <h2>Two buttons</h2>
 
-      {/* Inline სტილი პირდაპირ ელემენტში */}
+      {}
       <button
         style={{
           backgroundColor: 'green',
@@ -30,12 +29,12 @@ const App = () => {
           margin: '10px'
         }}
       >
-        Inline ღილაკი
+        Inline
       </button>
 
-      {/* Style Object-ით */}
+      {}
       <button style={buttonStyle}>
-        Object სტილის ღილაკი
+        Object
       </button>
     </div>
   );

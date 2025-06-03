@@ -1,4 +1,3 @@
-// components/CalculatorContainer.jsx
 import React, { useState } from 'react';
 import Calculator from './Calculator';
 
